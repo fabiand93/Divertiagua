@@ -1,14 +1,19 @@
 package logica;
 
+
   public class Tanque{
     private int capacidad;
 
-
     public Tanque (int capacidad){
-      this.capacidad=capacidad;
+      this.setCapacidad(capacidad);
     }
 
-    public void setTamano1 (int capacidad){
-      
-    }
-  }
+	public int getCapacidad() {
+		return capacidad;
+	}
+
+	public void setCapacidad(int capacidad) {
+		this.capacidad = capacidad;
+	}
+
+}
