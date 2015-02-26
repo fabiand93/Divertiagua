@@ -1,0 +1,17 @@
+public int impares( int numeros ){
+  i=numeros.lenth;
+  j=0;
+  k=0;
+  numImpares=new int [i];
+  if(j<=i){
+    if(numeros[j]%0){
+    numImpares[k]=numeros[j];
+    j++;
+    k++;
+    }
+    else{
+    j++;
+    }
+  }
+  return numImpares;
+}

@@ -15,5 +15,4 @@ package logica;
 	public void setCapacidad(int capacidad) {
 		this.capacidad = capacidad;
 	}
-
 }
